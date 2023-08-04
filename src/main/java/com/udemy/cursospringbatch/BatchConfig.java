@@ -22,6 +22,7 @@ public class BatchConfig {
 	@Autowired
 	private StepBuilderFactory stepBuilderFactory;
 	
+	
 	@Bean
 	public Job imprimeOlaJob() {
 		return jobBuilderFactory
