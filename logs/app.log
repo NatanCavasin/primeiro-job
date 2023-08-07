@@ -1,0 +1,36 @@
+2023-08-07 10:33:32,520 INFO c.u.c.CursospringbatchApplicationTests [main] Starting CursospringbatchApplicationTests using Java 17.0.7 on Ubuntu-academico with PID 11250 (started by unoesc in /home/unoesc/Documents/workspace-spring-tool-suite-4-4.19.0.RELEASE/cursospringbatch)
+2023-08-07 10:33:32,526 INFO c.u.c.CursospringbatchApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-07 10:33:33,422 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropsConfig.config is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2023-08-07 10:33:33,765 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-07 10:33:34,202 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-07 10:33:34,424 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2023-08-07 10:33:34,562 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2023-08-07 10:33:34,670 INFO c.u.c.CursospringbatchApplicationTests [main] Started CursospringbatchApplicationTests in 2.816 seconds (JVM running for 4.773)
+2023-08-07 10:33:34,822 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] launched with the following parameters: [{run.id=13, nome=NatanCavasin}]
+2023-08-07 10:33:34,944 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeOlaStep]
+2023-08-07 10:33:35,085 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeOlaStep] executed in 141ms
+2023-08-07 10:33:35,174 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] completed with the following parameters: [{run.id=13, nome=NatanCavasin}] and the following status: [COMPLETED] in 212ms
+2023-08-07 10:33:36,030 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImparJob]] launched with the following parameters: [{run.id=8, nome=NatanCavasin}]
+2023-08-07 10:33:36,321 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeParImparStep]
+2023-08-07 10:33:36,997 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeParImparStep] executed in 676ms
+2023-08-07 10:33:37,094 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImparJob]] completed with the following parameters: [{run.id=8, nome=NatanCavasin}] and the following status: [COMPLETED] in 1s39ms
+2023-08-07 10:33:37,973 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-08-07 10:33:38,074 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-08-07 10:33:55,652 INFO c.u.c.CursospringbatchApplication [main] Starting CursospringbatchApplication using Java 17.0.7 on Ubuntu-academico with PID 11349 (/home/unoesc/Documents/workspace-spring-tool-suite-4-4.19.0.RELEASE/cursospringbatch/target/classes started by unoesc in /home/unoesc/Documents/workspace-spring-tool-suite-4-4.19.0.RELEASE/cursospringbatch)
+2023-08-07 10:33:55,671 INFO c.u.c.CursospringbatchApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-07 10:33:56,581 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropsConfig.config is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2023-08-07 10:33:56,796 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-07 10:33:57,082 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-07 10:33:57,238 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2023-08-07 10:33:57,375 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2023-08-07 10:33:57,494 INFO c.u.c.CursospringbatchApplication [main] Started CursospringbatchApplication in 2.71 seconds (JVM running for 4.533)
+2023-08-07 10:33:57,694 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] launched with the following parameters: [{run.id=14, nome=NatanCavasin}]
+2023-08-07 10:33:57,761 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeOlaStep]
+2023-08-07 10:33:57,954 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeOlaStep] executed in 193ms
+2023-08-07 10:33:58,014 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] completed with the following parameters: [{run.id=14, nome=NatanCavasin}] and the following status: [COMPLETED] in 267ms
+2023-08-07 10:33:58,149 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImparJob]] launched with the following parameters: [{run.id=9, nome=NatanCavasin}]
+2023-08-07 10:33:58,206 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeParImparStep]
+2023-08-07 10:33:59,196 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeParImparStep] executed in 989ms
+2023-08-07 10:33:59,236 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImparJob]] completed with the following parameters: [{run.id=9, nome=NatanCavasin}] and the following status: [COMPLETED] in 1s58ms
+2023-08-07 10:33:59,258 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-08-07 10:33:59,315 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
